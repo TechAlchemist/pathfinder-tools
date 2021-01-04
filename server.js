@@ -8,17 +8,17 @@ const app = express();
 require('dotenv').config();
 
 const usersRouter = require('./routes/api/users');
-// const ticketsRouter = require('./routes/api/tickets');
+const weaponsRouter = require('./routes/api/weapons');
 
-require('./config/database');
+// require('./config/database');
 
 app.use(logger('dev'));
 app.use(express.json());
 app.use(cors());
 
 
-app.use('/api/users', usersRouter);
-app.use('/api/weapons', weaponRouter);
+// app.use('/api/users', usersRouter);
+app.use('/api/weapons', weaponsRouter);
 
 const port = process.env.PORT || 3001;
 	
