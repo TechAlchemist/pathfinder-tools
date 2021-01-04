@@ -1,0 +1,127 @@
+[
+  {
+    "name": "None",
+    "id": 0
+  },
+  {
+    "name": "Adamantine",
+    "id": 1
+  },
+  {
+    "name": "Alchemical Silver",
+    "id": 2
+  },
+  {
+    "name": "Blight Quartz",
+    "id": 3
+  },
+  {
+    "name": "Blood Crystal",
+    "id": 4
+  },
+
+  {
+    "name": "Cold Iron",
+    "id": 6
+  },
+  {
+    "name": "Cryptstone",
+    "id": 7
+  },
+  {
+    "name": "Druchite",
+    "id": 9
+  },
+  {
+    "name": "Elysian Bronze",
+    "id": 10
+  },
+  {
+    "name": "Greenwood",
+    "id": 12
+  },
+  {
+    "name": "Horacalcum",
+    "id": 13
+  },
+  {
+    "name": "Inubrix",
+    "id": 14
+  },
+  {
+    "name": "Mindglass",
+    "id": 15
+  },
+  {
+    "name": "Mithral",
+    "id": 16
+  },
+  {
+    "name": "Noqual",
+    "id": 17
+  },
+  {
+    "name": "Obsidian",
+    "id": 18
+  },
+  {
+    "name": "Siccatite",
+    "id": 19
+  },
+  {
+    "name": "Silversheen",
+    "id": 20
+  },
+  {
+    "name": "Spiresteel",
+    "id": 21
+  },
+  {
+    "name": "Fire-forged Steel",
+    "id": 22
+  },
+  {
+    "name": "Frost-forged Steel",
+    "id": 23
+  },
+  {
+    "name": "Living Steel",
+    "id": 24
+  },
+  {
+    "name": "Singing Steel",
+    "id": 25
+  },
+  {
+    "name": "Stone",
+    "id": 26
+  },
+  {
+    "name": "Sunsilver",
+    "id": 27
+  },
+  {
+    "name": "Viridium",
+    "id": 28
+  },
+  {
+    "name": "Voidglass",
+    "id": 29
+  },
+  {
+    "name": "Whipwood",
+    "id": 30
+  },
+  {
+    "name": "Wyroot 1",
+    "id": 31
+  },
+  {
+    "name": "Wyroot 2",
+    "id": 32
+  },
+  {
+    "name": "Wyroot 3",
+    "id": 33
+  }
+]

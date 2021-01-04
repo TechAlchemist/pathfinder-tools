@@ -1,0 +1,17 @@
+{
+  "name": "pathfinder-tools-backend",
+  "version": "1.0.0",
+  "description": "A backend for a suite of Pathfinder RPG tools. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Pathfinder",
+    "Tabletop",
+    "Games",
+    "DnD"
+  ],
+  "author": "Brandon Robert Myers",
+  "license": "ISC"
+}
