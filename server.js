@@ -9,6 +9,7 @@ require('dotenv').config();
 
 const usersRouter = require('./routes/api/users');
 const weaponsRouter = require('./routes/api/weapons');
+const magicItemsRouter = require('./routes/api/magic_items');
 
 // require('./config/database');
 
@@ -19,6 +20,7 @@ app.use(cors());
 
 // app.use('/api/users', usersRouter);
 app.use('/api/weapons', weaponsRouter);
+app.use('/api/magic_items', magicItemsRouter);
 
 const port = process.env.PORT || 3001;
 	
