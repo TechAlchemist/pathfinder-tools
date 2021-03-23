@@ -11,6 +11,7 @@ require('dotenv').config();
 const weaponsRouter = require('./routes/api/weapons');
 const magicItemsRouter = require('./routes/api/magic_items');
 const peopleRouter = require('./routes/api/people');
+const eventRouter = require('./routes/api/events');
 
 require('./config/database');
 
@@ -25,6 +26,7 @@ app.use(helmet());
 app.use('/api/weapons', weaponsRouter);
 app.use('/api/magic_items', magicItemsRouter);
 app.use('/api/people', peopleRouter);
+app.use('/api/events', eventRouter);
 
 const port = process.env.PORT || 3001;
 	

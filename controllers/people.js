@@ -4,11 +4,13 @@ function createPerson(req, res) {
     const person = new Person(req.body);
     try {
         person.save();
-        return res.status(200).json({"MSG": "Asset created. "});
     }
     catch(error) {
         console.log(JSON.stringify(error))
         return res.status(400).json(error);
+    }
+    finally {
+        return res.status(200).json({"MSG": "Asset created. "});
     }   
 }
 
@@ -22,7 +24,7 @@ function getSpecificPerson(req, res) {
     let id = req.params.id;
     Person.findById(id, function(error, person) {
         return res.json(person);
-    })
+    });
 }
 
 function updatePerson(req, res) {
@@ -42,10 +44,10 @@ function deletePerson(req, res) {
 
     Person.findByIdAndDelete(id, function(error, docs) {
         if (error) {
-            res.status(500).json({"MSG": "Failed to delete asset. "});
+            res.status(500).json({"MSG": "Failed to delete asset."});
         }
         else {
-            res.status(200).json({"MSG": "Asset deleted. "});
+            res.status(200).json({"MSG": "Asset deleted."});
         }
     });
 }
